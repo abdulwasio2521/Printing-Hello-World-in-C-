@@ -1,41 +1,10 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"Hello World" <<endl; //endl used after comma
+	cout<<"Hello World";
+	cout<<endl; //endl used on another line with cout<<
+	cout<<"Hello World";
+	cout<<"\nHello World" <<endl;
+	cout<<"Hello PW"; cout<<"\nHello VW" <<endl; //wrote two words on different lines within one Statment tramenter
+}
